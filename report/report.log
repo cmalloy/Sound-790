@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.22)  7 MAY 2015 07:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.22)  7 MAY 2015 07:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -407,12 +407,12 @@ LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
 
 LaTeX Warning: Citation 'waves' on page 1 undefined on input line 3.
 
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 11.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 13.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
 ) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
@@ -430,112 +430,31 @@ la-tion pipeline
  []
 
 
-LaTeX Warning: Citation 'savioja2010real' on page 2 undefined on input line 7.
+Underfull \hbox (badness 2351) in paragraph at lines 7--8
+[]\OT1/ptm/m/n/9 There are two main ap-proaches in solv-ing the prob-lem of
+ []
 
-
-LaTeX Warning: Citation 'thompson2006review' on page 2 undefined on input line 
-7.
-
-
-LaTeX Warning: Citation 'gumerov2009wideband' on page 2 undefined on input line
- 7.
-
-
-LaTeX Warning: Citation 'funkhouser2003survey' on page 2 undefined on input lin
-e 7.
-
-
-LaTeX Warning: Citation 'raghuvanshi2010precomputed' on page 2 undefined on inp
-ut line 7.
-
-
-LaTeX Warning: Citation 'mehra2013wave' on page 2 undefined on input line 7.
-
-
-LaTeX Warning: Citation 'borish1984extension' on page 2 undefined on input line
- 9.
-
-
-LaTeX Warning: Citation 'tsingos2001modeling' on page 2 undefined on input line
- 9.
-
-
-LaTeX Warning: Citation 'chandak2009fastv' on page 2 undefined on input line 9.
-
-
-
-LaTeX Warning: Citation 'taylor2012guided' on page 2 undefined on input line 9.
-
-
-
-LaTeX Warning: Citation 'schissler2014high' on page 2 undefined on input line 9
-.
-
-
-LaTeX Warning: Citation 'taylor2010sound' on page 2 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'schissler2011gsound' on page 2 undefined on input line
- 9.
-
-
-LaTeX Warning: Citation 'hulusic2012acoustic' on page 2 undefined on input line
- 11.
-
-
-LaTeX Warning: Citation 'painter2000perceptual' on page 2 undefined on input li
-ne 17.
-
-
-LaTeX Warning: Citation 'pan1995tutorial' on page 2 undefined on input line 17.
-
-
-
-LaTeX Warning: Citation 'ambikairajah1997auditory' on page 2 undefined on input
- line 17.
-
-
-LaTeX Warning: Citation 'tsingos2004perceptual' on page 2 undefined on input li
-ne 27.
-
-
-LaTeX Warning: Citation 'moeck2007progressive' on page 2 undefined on input lin
-e 28.
-
-) (./src/psychoacoustics.tex <figs/bmem.png, id=28, 570.13pt x 443.6575pt>
+) (./src/psychoacoustics.tex <figs/bmem.png, id=47, 570.13pt x 443.6575pt>
 File: figs/bmem.png Graphic file (type png)
 
 <use figs/bmem.png>
 Package pdftex.def Info: figs/bmem.png used on input line 53.
 (pdftex.def)             Requested size: 202.35622pt x 157.46227pt.
- <figs/auditoryfilters.jpg, id=30, 202.5979pt x 71.36284pt>
+ <figs/auditoryfilters.jpg, id=49, 202.5979pt x 71.36284pt>
 File: figs/auditoryfilters.jpg Graphic file (type jpg)
 
 <use figs/auditoryfilters.jpg>
 Package pdftex.def Info: figs/auditoryfilters.jpg used on input line 59.
 (pdftex.def)             Requested size: 202.35622pt x 71.27881pt.
- [2 <./figs/bmem.png>]
-<figs/masked.png, id=46, 664.4825pt x 464.73625pt>
+
+<figs/masked.png, id=50, 664.4825pt x 464.73625pt>
 File: figs/masked.png Graphic file (type png)
  <use figs/masked.png>
 Package pdftex.def Info: figs/masked.png used on input line 72.
 (pdftex.def)             Requested size: 202.35622pt x 141.52806pt.
-)
-(./src/mpeg.tex) (./src/overview.tex (./src/masking.tex
 
-LaTeX Warning: Citation 'painter2000perceptual' on page 3 undefined on input li
-ne 1.
-
-[3 <./figs/auditoryfilters.jpg> <./figs/masked.png>]
-
-LaTeX Warning: Citation 'johnston1988estimation' on page 4 undefined on input l
-ine 20.
-
-) (./src/gsound.tex
-
-LaTeX Warning: Citation 'schissler2011gsound' on page 4 undefined on input line
- 3.
-
+[2]) (./src/mpeg.tex) (./src/overview.tex (./src/masking.tex [3 <./figs/bmem.pn
+g> <./figs/auditoryfilters.jpg> <./figs/masked.png>]) (./src/gsound.tex
 Package epstopdf Info: Source file: <figs/figure1.eps>
 (epstopdf)                    date: 2015-05-07 02:24:23
 (epstopdf)                    size: 147173 bytes
@@ -546,7 +465,8 @@ Package epstopdf Info: Source file: <figs/figure1.eps>
 -to.pdf figs/figure1.eps>
 (epstopdf)             \includegraphics on input line 8.
 Package epstopdf Info: Output file is already uptodate.
-<figs/figure1-eps-converted-to.pdf, id=64, 405.515pt x 323.2075pt>
+
+<figs/figure1-eps-converted-to.pdf, id=102, 405.515pt x 323.2075pt>
 File: figs/figure1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figs/figure1-eps-converted-to.pdf>
@@ -571,13 +491,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 146.
  ) 
 Here is how much of TeX's memory you used:
- 7317 strings out of 493304
- 110484 string characters out of 6139871
- 201954 words of memory out of 5000000
+ 7310 strings out of 493304
+ 110442 string characters out of 6139871
+ 204647 words of memory out of 5000000
  10572 multiletter control sequences out of 15000+600000
  24960 words of font info for 52 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 43i,8n,40p,1000b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,8n,40p,1117b,398s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
@@ -594,10 +514,10 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (6 pages, 4295723 bytes).
+Output written on report.pdf (6 pages, 4296914 bytes).
 PDF statistics:
- 219 PDF objects out of 1000 (max. 8388607)
- 182 compressed objects within 2 object streams
- 73 named destinations out of 1000 (max. 500000)
+ 234 PDF objects out of 1000 (max. 8388607)
+ 197 compressed objects within 2 object streams
+ 66 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
