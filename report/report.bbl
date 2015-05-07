@@ -1,0 +1,191 @@
+\begin{thebibliography}{\protect\citename{Ambikairajah et~al\mbox{.} }1997}
+
+\bibitem[\protect\citename{Ambikairajah et~al\mbox{.}
+  }1997]{ambikairajah1997auditory}
+{\sc Ambikairajah, E., Davis, A., and Wong, W.}
+\newblock 1997.
+\newblock Auditory masking and mpeg-1 audio compression.
+\newblock {\em Electronics \& communication engineering journal 9}, 4,
+  165--175.
+
+\bibitem[\protect\citename{Borish }1984]{borish1984extension}
+{\sc Borish, J.}
+\newblock 1984.
+\newblock Extension of the image model to arbitrary polyhedra.
+\newblock {\em The Journal of the Acoustical Society of America 75}, 6,
+  1827--1836.
+
+\bibitem[\protect\citename{Chandak et~al\mbox{.} }2009]{chandak2009fastv}
+{\sc Chandak, A., Antani, L., Taylor, M., and Manocha, D.}
+\newblock 2009.
+\newblock Fastv: From-point visibility culling on complex models.
+\newblock In {\em Computer Graphics Forum}, vol.~28, Wiley Online Library,
+  1237--1246.
+
+\bibitem[\protect\citename{Funkhouser et~al\mbox{.} }1998]{funkhouser1998beam}
+{\sc Funkhouser, T., Carlbom, I., Elko, G., Pingali, G., Sondhi, M., and West,
+  J.}
+\newblock 1998.
+\newblock A beam tracing approach to acoustic modeling for interactive virtual
+  environments.
+\newblock In {\em Proceedings of the 25th annual conference on Computer
+  graphics and interactive techniques}, ACM, 21--32.
+
+\bibitem[\protect\citename{Funkhouser et~al\mbox{.}
+  }2003]{funkhouser2003survey}
+{\sc Funkhouser, T., Tsingos, N., and Jot, J.-M.}
+\newblock 2003.
+\newblock Survey of methods for modeling sound propagation in interactive
+  virtual environment systems.
+
+\bibitem[\protect\citename{Gumerov and Duraiswami }2009]{gumerov2009wideband}
+{\sc Gumerov, N.~A., and Duraiswami, R.}
+\newblock 2009.
+\newblock Wideband fast multipole accelerated boundary element methods for the
+  three-dimensional helmholtz equation.
+\newblock {\em The Journal of the Acoustical Society of America 125}, 4,
+  2566--2566.
+
+\bibitem[\protect\citename{Hulusic et~al\mbox{.} }2012]{hulusic2012acoustic}
+{\sc Hulusic, V., Harvey, C., Debattista, K., Tsingos, N., Walker, S., Howard,
+  D., and Chalmers, A.}
+\newblock 2012.
+\newblock Acoustic rendering and auditory--visual cross-modal perception and
+  interaction.
+\newblock In {\em Computer Graphics Forum}, vol.~31, Wiley Online Library,
+  102--131.
+
+\bibitem[\protect\citename{Johnston }1988]{johnston1988estimation}
+{\sc Johnston, J.~D.}
+\newblock 1988.
+\newblock Estimation of perceptual entropy using noise masking criteria.
+\newblock In {\em Acoustics, Speech, and Signal Processing, 1988. ICASSP-88.,
+  1988 International Conference on}, IEEE, 2524--2527.
+
+\bibitem[\protect\citename{Kirk and O'Brien }2011]{kirk2011perceptually}
+{\sc Kirk, A.~G., and O'Brien, J.~F.}
+\newblock 2011.
+\newblock Perceptually based tone mapping for low-light conditions.
+\newblock {\em ACM Trans. Graph. 30}, 4, 42.
+
+\bibitem[\protect\citename{Manocha and Lin }2009]{manocha2009interactive}
+{\sc Manocha, D., and Lin, M.~C.}
+\newblock 2009.
+\newblock Interactive sound rendering.
+\newblock In {\em Computer-Aided Design and Computer Graphics, 2009.
+  CAD/Graphics' 09. 11th IEEE International Conference on}, IEEE, 19--26.
+
+\bibitem[\protect\citename{Mehra et~al\mbox{.} }2013]{mehra2013wave}
+{\sc Mehra, R., Raghuvanshi, N., Antani, L., Chandak, A., Curtis, S., and
+  Manocha, D.}
+\newblock 2013.
+\newblock Wave-based sound propagation in large open scenes using an equivalent
+  source formulation.
+\newblock {\em ACM Transactions on Graphics (TOG) 32}, 2, 19.
+
+\bibitem[\protect\citename{Moeck et~al\mbox{.} }2007]{moeck2007progressive}
+{\sc Moeck, T., Bonneel, N., Tsingos, N., Drettakis, G., Viaud-Delmon, I., and
+  Alloza, D.}
+\newblock 2007.
+\newblock Progressive perceptual audio rendering of complex scenes.
+\newblock In {\em Proceedings of the 2007 symposium on Interactive 3D graphics
+  and games}, ACM, 189--196.
+
+\bibitem[\protect\citename{Painter and Spanias }2000]{painter2000perceptual}
+{\sc Painter, T., and Spanias, A.}
+\newblock 2000.
+\newblock Perceptual coding of digital audio.
+\newblock {\em Proceedings of the IEEE 88}, 4, 451--515.
+
+\bibitem[\protect\citename{Pan }1995]{pan1995tutorial}
+{\sc Pan, D.}
+\newblock 1995.
+\newblock A tutorial on mpeg/audio compression.
+\newblock {\em IEEE multimedia 2}, 2, 60--74.
+
+\bibitem[\protect\citename{Raghuvanshi et~al\mbox{.}
+  }2010]{raghuvanshi2010precomputed}
+{\sc Raghuvanshi, N., Snyder, J., Mehra, R., Lin, M., and Govindaraju, N.}
+\newblock 2010.
+\newblock Precomputed wave simulation for real-time sound propagation of
+  dynamic sources in complex scenes.
+\newblock In {\em ACM Transactions on Graphics (TOG)}, vol.~29, ACM, 68.
+
+\bibitem[\protect\citename{Savioja }2010]{savioja2010real}
+{\sc Savioja, L.}
+\newblock 2010.
+\newblock Real-time 3d finite-difference time-domain simulation of low-and
+  mid-frequency room acoustics.
+\newblock In {\em 13th Int. Conf on Digital Audio Effects}, vol.~1, 75.
+
+\bibitem[\protect\citename{Schissler and Manocha }2011]{schissler2011gsound}
+{\sc Schissler, C., and Manocha, D.}
+\newblock 2011.
+\newblock Gsound: Interactive sound propagation for games.
+\newblock In {\em Audio Engineering Society Conference: 41st International
+  Conference: Audio for Games}, Audio Engineering Society.
+
+\bibitem[\protect\citename{Schissler and Manocha }2015]{schissler2015large}
+{\sc Schissler, C., and Manocha, D.}
+\newblock 2015.
+\newblock Interactive sound propagation and rendering for large multi-source
+  scenes.
+
+\bibitem[\protect\citename{Schissler et~al\mbox{.} }2014]{schissler2014high}
+{\sc Schissler, C., Mehra, R., and Manocha, D.}
+\newblock 2014.
+\newblock High-order diffraction and diffuse reflections for interactive sound
+  propagation in large environments.
+\newblock {\em ACM Transactions on Graphics (SIGGRAPH 2014) 33}, 4, 39.
+
+\bibitem[\protect\citename{Stuart }1996]{stuart1996psychoacoustics}
+{\sc Stuart, J.~R.}
+\newblock 1996.
+\newblock The psychoacoustics of multichannel audio.
+\newblock In {\em Audio Engineering Society Conference: UK 11th Conference:
+  Audio for New Media (ANM)}, Audio Engineering Society.
+
+\bibitem[\protect\citename{Taylor et~al\mbox{.} }2010]{taylor2010sound}
+{\sc Taylor, M., Chandak, A., Mo, Q., Lauterbach, C., Schissler, C., and
+  Manocha, D.}
+\newblock 2010.
+\newblock i-sound: Interactive gpu-based sound auralization in dynamic scenes.
+\newblock Tech. rep., Tech. Rep. TR10-006.
+
+\bibitem[\protect\citename{Taylor et~al\mbox{.} }2012]{taylor2012guided}
+{\sc Taylor, M., Chandak, A., Mo, Q., Lauterbach, C., Schissler, C., and
+  Manocha, D.}
+\newblock 2012.
+\newblock Guided multiview ray tracing for fast auralization.
+\newblock {\em Visualization and Computer Graphics, IEEE Transactions on 18},
+  11, 1797--1810.
+
+\bibitem[\protect\citename{Thompson }2006]{thompson2006review}
+{\sc Thompson, L.~L.}
+\newblock 2006.
+\newblock A review of finite-element methods for time-harmonic acoustics.
+\newblock {\em J. Acoust. Soc. Am 119}, 3, 1315--1330.
+
+\bibitem[\protect\citename{Tsingos et~al\mbox{.} }2001]{tsingos2001modeling}
+{\sc Tsingos, N., Funkhouser, T., Ngan, A., and Carlbom, I.}
+\newblock 2001.
+\newblock Modeling acoustics in virtual environments using the uniform theory
+  of diffraction.
+\newblock In {\em Proceedings of the 28th annual conference on Computer
+  graphics and interactive techniques}, ACM, 545--552.
+
+\bibitem[\protect\citename{Tsingos et~al\mbox{.} }2004]{tsingos2004perceptual}
+{\sc Tsingos, N., Gallo, E., and Drettakis, G.}
+\newblock 2004.
+\newblock Perceptual audio rendering of complex virtual environments.
+\newblock In {\em ACM Transactions on Graphics (TOG)}, vol.~23, ACM, 249--258.
+
+\bibitem[\protect\citename{Tsingos }2005]{tsingos2005scalable}
+{\sc Tsingos, N.}
+\newblock 2005.
+\newblock Scalable perceptual mixing and filtering of audio signals using an
+  augmented spectral representation.
+\newblock In {\em 8th International Conference on Digital Audio Effects (DAFx
+  2005)}, 6.
+
+\end{thebibliography}

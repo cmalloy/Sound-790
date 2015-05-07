@@ -1,0 +1,28 @@
+Masking thresholds are obtained by performing critical band analysis (with spreading), making a determination of the noise-like or tone-like nature of the signal, applying thresholding rules for the signal quality, then accounting for the absolute hearing threshold \cite{painter2000perceptual}. 
+We assume that the input sound samples are given in advance, and can be pre-processed to extract spectral information about the signal. N samples long Hann window with 50 percent overlap is used to produce the parts of the input sound signal that are processed by psychoacoustic module.
+% Short time Fourier transform.
+
+The short time spectrum \( X(\omega) \) is computed from the windowed signal chunk \( x(i) \;\; i \in [0, N-1]\) using discrete Fourier transform. From this we generate the \emph{power density spectrum} by
+\[ P(\omega) = Re(X(\omega))^2 + Im(X(\omega))^2, \;\; \omega \in [0, N-1]. \]
+Signal power for each critical band \(i\) is calculated by summing corresponding power density spectra within that frequency band
+\[ B_i = \sum_{\omega = \omega_{i\_low}}^{\omega_{i\_high}} P(\omega). \]
+To account for spreading of masking the critical band signal power is convolved 
+\[ C_i = B_i * SF_i \]
+with the \emph{spreading function} \( SF_i, \) representing masking across critical bands and given by analytical expression:
+\[ SF_i = 15.81 + 7.5(\delta i + 0.474) - 17.5\sqrt{1 + (\delta i + 0.474)^2} .\]
+Due to the asymmetry of masking there are two masking thresholds: for tone masking noise the threshold is estimated as \( 14.5 + i\) dB below \( C_i \), while for noise masking tone it is estimated as \( 5.5 \) dB below \( C_i \), for each band \( i \). 
+
+In order to recognize a tonal or noise-like signal within a certain number of samples, the \emph{spectral flatness measure} (SFM) is estimated
+\[ SFM_{dB} = 10 \log_{10} \frac{\mu_g}{\mu_a}, \]
+where \( \mu_g \) and \( \mu_a \) are geometric and arithmetic means of the \( C_i \).
+
+The SFM is compared with the SFM of a sinusoidal signal (entirely tonelike signal with SFM = -60 dB)
+and the \emph{tonality index} is calculated \cite{johnston1988estimation} by
+\[ \alpha = \min (\frac{SFM_{dB}}{-60}, 1) .\]
+SFM = 0 dB corresponds to a noise-like signal and leads to \( \alpha = 0 \), whereas an SFM = 75 dB gives a tone-like signal \( (\alpha = 1) \).
+
+The tonality index is then used to weight the thresholding rules for each band to form an \emph{offset} between signal level and the masking threshold in critical band \( i \)
+\[ O_i = \alpha(14.5 + i) + (1 - \alpha)5.5 \;\;\; \text{(in dB)}.\]
+
+Finally, a set of \emph{just noticeable difference} JND estimates in the frequency power domain are then formed by subtracting the offsets from the Bark spectral components
+\[ T_i = 10^{\log_{10}(C_i) - (O_i/10)} .\]

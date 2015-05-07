@@ -1,0 +1,35 @@
+Our work is based on ray-tracing methods of sound propagation simulation, and psychoacoustic principles of human auditory system. In this section we give brief overview of related work in geometric sound propagation, perceptual coding, and perceptual audio rendering.
+
+\paragraph{Geometric Sound Propagation} 
+
+[Sound Simulation pipeline overview? short: synthesis, propagation and rendering (diagram).]
+
+There are two main approaches in solving the problem of sound propagation: wave-based \cite{savioja2010real,thompson2006review,gumerov2009wideband} and geometric \cite{funkhouser2003survey}, with an accuracy and computational complexity being the major trade-offs between them. In wave-based approach the acoustic wave equation being solved numerically, while in geometric approach the problem is reduced to geometric computations assuming the rectilinear propagation of sound waves. Due to the high computational demands of wave-based methods, the field of interactive sound propagation algorithms is primarily dominated by geometric methods, although there are interactive wave-based methods for static scenes \cite{raghuvanshi2010precomputed,mehra2013wave}.
+
+Geometric approach includes algorithms based on image source \cite{borish1984extension}, beam tracing \cite{tsingos2001modeling}, frustum tracing \cite{chandak2009fastv}, ray tracing \cite{taylor2012guided,schissler2014high}. Recent advances in ray tracing based approach together with its highly parallel nature makes it stand out among other geometric approachers for interactive sound [auralization (simulation)] applications \cite{taylor2010sound,schissler2011gsound}. The general idea behind ray tracing based algorithms is to model sound propagation effect by considering different paths between a source and a listener. These propagation paths encode information about the delays and attenuations of sound traveling along the paths, and may consist of any number of reflections and diffractions. 
+
+See \cite{hulusic2012acoustic} for a more comprehensive survey on acoustic rendering and auditory.
+
+\paragraph{Psychoacoustics}
+
+When sound wave reaches human ear the mechanical energy transforms into neural signal [pulse?], which eventually travels to the brain. This [what?] suggests that taking into account the final signal transformations due to ear and brain may be advantageous for some sound processing applications.
+
+The field of psychoacoustics has made significant progress toward characterizing the time-frequency analysis capabilities of the inner ear \cite{painter2000perceptual}. One of the vivid examples of applying psychoacoustic principles to digital signal processing is perceptual coding. It exploits the human auditory system's inability to hear quantization noise under condition of auditory masking \cite{pan1995tutorial} to perform perceptually lossless audio signal compression \cite{ambikairajah1997auditory}. These were applied to different audio compression formats, including MPEG-1 Audio Layer III (MP3).
+
+The main psychoacoustic principles consist of absolute hearing thresholds, critical band frequency analysis, simultaneous masking, the spread of masking, and temporal masking. Making use of these psychoacoustic notions in the audio simulation system allows ...  
+
+% Combining these psychoacoustic notions with basic properties of signal quantization has also led to the theory of perceptual entropy [45], a quantitative estimate of the fundamental limit of transparent audio signal compression.
+
+% Perceptual methods, e.g. perceptually based rendering, have been used in computer graphics research.
+
+\paragraph{Perceptual Audio Rendering} 
+
+Our work is related to the work of \cite{tsingos2004perceptual}, where the psychoacoustic principles are utilized to handle large number of sources and accelerate sound rendering.
+Similar approach was done in \cite{moeck2007progressive} for producing scalable or progressive rendering of complex mixtures of sounds.
+Our work differs from the previous two in that we intend to leverage psychoacoustic feedback throughout the entire pipeline (including propagation), not only in rendering phase or for clustering.
+
+% Many techniques have been proposed in the literature to handle multiple sources: sound source clustering [Tsingos et al. 2004], and a combination of hierarchical clustering and perceptual metrics [Moeck et al. 2007], etc. to handle a large number of sources.
+% Perceptual techniques [Moeck et al. 2007] to handle large number of sources and accelerate sound rendering.
+% All the interactive geometric propagation algorithms can handle only small number of sound sources. Perceptual ... (Tsingos) can help increase the number of sources by clustering them based on...
+
+ \paragraph{Spherical Projection}  Testing. Cite it! Right here, Right now!
