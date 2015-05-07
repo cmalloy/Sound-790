@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.22)  7 MAY 2015 07:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.9.22)  7 MAY 2015 08:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -437,15 +437,34 @@ File: figs/auditoryfilters.jpg Graphic file (type jpg)
 Package pdftex.def Info: figs/auditoryfilters.jpg used on input line 59.
 (pdftex.def)             Requested size: 202.35622pt x 71.27881pt.
  [2 <./figs/bmem.png>]
-<figs/masked.png, id=86, 664.4825pt x 464.73625pt>
+<figs/masked.png, id=85, 664.4825pt x 464.73625pt>
 File: figs/masked.png Graphic file (type png)
  <use figs/masked.png>
 Package pdftex.def Info: figs/masked.png used on input line 72.
 (pdftex.def)             Requested size: 202.35622pt x 141.52806pt.
 )
 (./src/mpeg.tex) (./src/overview.tex (./src/masking.tex [3 <./figs/auditoryfilt
-ers.jpg> <./figs/masked.png>])) (./src/implementation.tex) (./src/future.tex
-[4]) (./report.bbl [5])
+ers.jpg> <./figs/masked.png>])) (./src/implementation.tex
+Package epstopdf Info: Source file: <figs/figure1.eps>
+(epstopdf)                    date: 2015-05-07 02:24:23
+(epstopdf)                    size: 147173 bytes
+(epstopdf)             Output file: <figs/figure1-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-05-07 02:24:23
+(epstopdf)                    size: 20206 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/figure1-eps-converted
+-to.pdf figs/figure1.eps>
+(epstopdf)             \includegraphics on input line 2.
+Package epstopdf Info: Output file is already uptodate.
+
+<figs/figure1-eps-converted-to.pdf, id=105, 405.515pt x 323.2075pt>
+File: figs/figure1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figs/figure1-eps-converted-to.pdf>
+Package pdftex.def Info: figs/figure1-eps-converted-to.pdf used on input line 2
+.
+(pdftex.def)             Requested size: 216.81pt x 172.80827pt.
+ [4 <./figs/figure1-eps-converted-to.pdf>]) (./src/future.tex) (./report.bbl [5
+])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 146.
  [6
 
@@ -454,33 +473,40 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 146.
  (./report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 146.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 146.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 146.
  ) 
 Here is how much of TeX's memory you used:
- 7286 strings out of 493304
- 110131 string characters out of 6139871
+ 7304 strings out of 493304
+ 110373 string characters out of 6139871
  204585 words of memory out of 5000000
- 10567 multiletter control sequences out of 15000+600000
+ 10572 multiletter control sequences out of 15000+600000
  24960 words of font info for 52 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 43i,8n,40p,1117b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,8n,40p,1086b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/urw/times/utmri8a.pfb>
-Output written on report.pdf (6 pages, 4247069 bytes).
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
+tmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on report.pdf (6 pages, 4295659 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
- 165 compressed objects within 2 object streams
- 62 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 229 PDF objects out of 1000 (max. 8388607)
+ 192 compressed objects within 2 object streams
+ 63 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
