@@ -24,5 +24,5 @@ SFM = 0 dB corresponds to a noise-like signal and leads to \( \alpha = 0 \), whe
 The tonality index is then used to weight the thresholding rules for each band to form an \emph{offset} between signal level and the masking threshold in critical band \( i \)
 \[ O_i = \alpha(14.5 + i) + (1 - \alpha)5.5 \;\;\; \text{(in dB)}.\]
 
-Finally, a set of \emph{just noticeable difference} JND estimates in the frequency power domain are then formed by subtracting the offsets from the Bark spectral components
+Finally, the masking thresholds in the frequency power domain are then formed by subtracting the offsets from the Bark spectral components
 \[ T_i = 10^{\log_{10}(C_i) - (O_i/10)} .\]
